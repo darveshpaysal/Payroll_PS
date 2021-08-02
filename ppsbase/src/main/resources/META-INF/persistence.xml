@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="com.hayver_appbase_jar_1.0PU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>com.base.biz.entity.event.EventCheckinVO</class>
+    <class>com.base.biz.entity.event.EventScheduleVO</class>
+    <class>com.base.biz.entity.event.EventTemplateVO</class>
+    <class>com.base.biz.entity.quest.CustomerQuestionsVO</class>
+    <class>com.base.biz.entity.quest.QuestionnaireScheduleVO</class>
+    <class>com.base.biz.entity.quest.CustomerAnsCheckinVO</class>
+    <class>com.base.biz.entity.quest.CustomerAnswersVO</class>
+    <class>com.base.biz.entity.quest.AnswerOptionsVO</class>
+    <class>com.base.biz.entity.CodeReference</class>
+    <class>com.base.biz.entity.MEmpMaster</class>
+    <class>com.base.biz.entity.MCompany</class>
+    <class>com.base.biz.entity.PMthlysalParam</class>
+    <class>com.base.biz.entity.MBank</class>
+    <class>com.base.biz.entity.MUsers</class>
+    <class>com.base.biz.entity.MFinancialyear</class>
+    <class>com.base.biz.entity.MnthTaxDp</class>
+    <class>com.base.biz.entity.TPaybillHist</class>
+    <class>com.base.biz.entity.TmpAsr</class>
+    <class>com.base.biz.entity.ItCalc</class>
+    <class>com.base.biz.entity.QtlyTaxDp</class>
+    <class>com.base.biz.entity.TmpPaybill</class>
+    <class>com.base.biz.entity.Form16</class>
+    <class>com.base.biz.entity.TPaybillAsr</class>
+    <class>com.base.biz.entity.TItslab</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:oracle:thin:@xhcdev.cgwaeqkefqfy.ap-south-1.rds.amazonaws.com:1521:XHCDEV"/>
+      <property name="javax.persistence.jdbc.user" value="OPHAVER"/>
+      <property name="javax.persistence.jdbc.driver" value="oracle.jdbc.OracleDriver"/>
+      <property name="javax.persistence.jdbc.password" value="OPHAVER"/>
+    </properties>
+  </persistence-unit>
+</persistence>
